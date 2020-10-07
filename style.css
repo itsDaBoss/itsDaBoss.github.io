@@ -18,19 +18,3 @@
   border: 0px solid orange;
   background: #343A40 ;
 }
-
-.carre1 {
-
-  width: 300px;
-  height: 85px;
-  margin: left;
-  margin: bottom;
-  margin-top: 20px;
-
-  border: 3px solid black;
-  background: white ;
-  font-size: 130%;
-  font-weight: 200;
-  color: #1F1F1F;
-  font-family: Lucida Console;
-}
