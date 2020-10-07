@@ -18,3 +18,7 @@
   border: 0px solid orange;
   background: #343A40 ;
 }
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+  background-color: #4d85ff !important;
+}
