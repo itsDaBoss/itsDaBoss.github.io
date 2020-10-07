@@ -21,6 +21,8 @@
 
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
   background-color: #7289DA !important;
+  margin-bottom: 1%;
+  margin-top: 1%;
 }
 
 .embed-responsive-item{
