@@ -9,3 +9,12 @@
    border: 3px solid orange;
 
 }
+
+.carre {
+
+  width: 70%;
+  height: 700px;
+  margin: auto;
+  border: 0px solid orange;
+  background: #343A40 ;
+}
