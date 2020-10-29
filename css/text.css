@@ -23,6 +23,7 @@ body{
 
 /* Animation */
 .anim-typewriter{
+    animation-delay: 4s;
   animation: typewriter 3s steps(20) 1s 1 normal both,
              blinkTextCursor 800ms steps(20) infinite normal;
 }
