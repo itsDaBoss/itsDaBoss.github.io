@@ -9,8 +9,7 @@ body{
 }
 .line-1{
     
-    position: static;
-    top: 50%;  
+    position: relative;
     width: 6em;
     margin: 0 auto;
     border-right: 2px solid rgba(255,255,255,.75);
