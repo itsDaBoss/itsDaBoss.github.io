@@ -18,7 +18,7 @@
 }
  .wordCarousel div li {
 	 font-family: 'Anonymous Pro', monospace;
-	 color: #ccc;
+	 color: rgb(255, 255, 255);
 	 font-weight: 700;
 	 padding: 0 10px;
 	 height: 45px;
