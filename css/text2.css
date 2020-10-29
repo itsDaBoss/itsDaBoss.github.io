@@ -27,12 +27,18 @@
 }
  .flip2 {
 	 animation: flip2 6s cubic-bezier(0.23, 1, 0.32, 1.2) infinite;
+	 animation-delay: 2s;
+
 }
  .flip3 {
 	 animation: flip3 8s cubic-bezier(0.23, 1, 0.32, 1.2) infinite;
+	 animation-delay: 2s;
+
 }
  .flip4 {
 	 animation: flip4 10s cubic-bezier(0.23, 1, 0.32, 1.2) infinite;
+	 animation-delay: 2s;
+
 }
  @keyframes flip2 {
 	 0% {
