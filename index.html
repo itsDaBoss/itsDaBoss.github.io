@@ -65,6 +65,14 @@
   $(window).on("load",function(){
 $(".loader-container").fadeOut(1000);
   });
+
+  document.body.classList.add('js-loading');
+
+window.addEventListener("load", showPage);
+
+function showPage() {
+  document.body.classList.remove('js-loading');
+}
 </script>
 
 
