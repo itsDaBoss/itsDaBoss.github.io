@@ -7,35 +7,7 @@ body{
   font-family: 'Anonymous Pro', monospace;  
   align-items: center;
 }
-.line-1{
-    
-    position: relative;
-    width: 6em;
-    margin: 0 auto;
-    border-right: 2px solid rgba(255,255,255,.75);
-    font-size: 180%;
-    text-align: center;
-    white-space: nowrap;
-    overflow: hidden;
-    transform: translateY(-50%);   
-    font-weight: 600;
-}
 
-/* Animation */
-.anim-typewriter{
-
-  animation: typewriter 3s steps(20) 1s 1 normal both,
-             blinkTextCursor 800ms steps(20) infinite normal;
-  animation-delay: 2s;
-}
-@keyframes typewriter{
-  from{width: 0;}
-
-}
-@keyframes blinkTextCursor{
-  from{border-right-color: rgba(255,255,255,.75);}
-  to{border-right-color: transparent;}
-}
 
 .texxt{
     top: 50%;  
@@ -49,3 +21,17 @@ body{
 
 ::selection {
 background: black;}
+
+h1 {
+    background: #292929;
+    padding: 1rem 3rem;
+    outline:5px solid #353535;
+    color:#fff;
+    text-shadow:1px 1px #000000;
+    text-align: center;
+  }
+
+h2 {
+    text-align: center;
+    font-size: 180%;
+}
