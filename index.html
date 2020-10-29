@@ -9,6 +9,13 @@
     <link rel="icon" type="image/png" href="favicon.png"/>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/loader.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/text.css" />
+    <link rel="stylesheet" href="css/text2.css" />
+
+
+
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   
     <meta charset="utf-8">
@@ -17,28 +24,46 @@
 
 
   <body>
+<!-- loader -->
+
     <div class="loader-container">
       <div class="loader"></div>
     </div>
-
+<!-- nav bar-->
     <nav>
         <img src="logo.png" class="sidelogo"></img> 
 
     </nav>
+<!-- page content-->
+<div class="content">
+    <img src="myimage1.png" class="myimage">
+</div>
+<!--<p>
+<h3>Who am I ?</h3>
+hello
+</p>-->
+
+<div class="text"></div>
+
+<p class="line-1 anim-typewriter">Who am I?</p>
+<p class="texxt">Hello world!<br> Im known in the internet as Ophen</p>
+</div>
 
 
 
+<br>
+<h4 class="wordCarousel">    
+  <span>I am a </span>  
+  <div> 
+<!--        Use classes 2,3, or 4 to match the number of words --> 
+      <ul class="flip2"> 
+          <li>Developer</li>
+          <li>Gamer</li>
+      </ul>
+  </div>  
+</h4>
 
-
-
-
-
-
-
-
-
-
-    
+<!--scripts -->
 <script>
   $(window).on("load",function(){
 $(".loader-container").fadeOut(1000);

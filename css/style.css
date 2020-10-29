@@ -1,6 +1,5 @@
 
-  
-  body {
+body {
     background-color: #26272A;
 }
 
@@ -15,7 +14,7 @@
 
 nav{
   background: #161718;
-  height: 100px;
+  height: 105px;
   width: 100%;
   position: fixed;
 }
